@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Special Files">
+      <UniqueIdentifier>{80FB4B75-E479-4611-31D8-D6636660FB04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F522EC19-796C-1916-85B6-FFE75BD2EE84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="premake4.lua">
+      <Filter>Special Files</Filter>
+    </None>
+    <None Include="project.props" />
+    <None Include=".editorconfig" />
+    <None Include=".clang-format" />
+    <None Include=".gitignore">
+      <Filter>Special Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dpapi-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
