@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: Unlicense
 #include <Windows.h>
 #include "ntnative.h"
 #define _NTDEF_
